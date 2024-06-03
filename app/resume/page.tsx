@@ -18,6 +18,7 @@ import {
   FaNodeJs,
   FaReact,
   FaPhp,
+  FaPython,
 } from "react-icons/fa";
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
@@ -72,12 +73,12 @@ const experience = {
     {
       project: "Booking Web App",
       position: "Full Stack Developer",
-      duration: "2023 - Present",
+      duration: "Dec/2023 - Present",
     },
     {
       project: "Inventory Management",
       position: "Back-end Developer",
-      duration: "Oct/2023 - Nov/2023",
+      duration: "Aug/2023 - Nov/2023",
     },
     {
       project: "E-Commerce Clothes Shop",
@@ -109,6 +110,10 @@ const skill = {
   title: "My Skills",
   description: "A list of my technical skills and tools I am proficient with.",
   skills: [
+    {
+      icon: <FaPython />,
+      name: "Python",
+    },
     {
       icon: <FaHtml5 />,
       name: "HTML 5",

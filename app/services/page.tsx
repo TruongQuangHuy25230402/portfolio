@@ -8,31 +8,31 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Frontend Development",
     description:
-      "We create responsive and optimized websites tailored to your business needs using the latest technologies and best practices.",
-    href: "/services/web-development",
+      "We specialize in crafting intuitive user interfaces with technologies such as JavaScript, TypeScript, Tailwind CSS, React, ShadcnUI, and Zustand. Our front-end solutions ensure seamless user experiences and high performance on the Node.js platform.",
+    href: "/work",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Backend Development",
     description:
-      "Our UI/UX design services focus on creating user-friendly interfaces and experiences that engage and retain your customers.",
-    href: "/services/ui-ux-design",
+      "Our back-end development expertise includes Next.js 14 for server-side rendering, MySQL (Neon) for efficient data management, Prisma for database access and ORM, Clerk Auth for authentication, and Stripe for secure payment processing.",
+    href: "/work",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Web Development",
     description:
-      "Our creative team designs unique and memorable logos that reflect your brand's identity and values.",
-    href: "/services/logo-design",
+      "We collaborate closely with you to craft responsive and optimized websites using the latest technologies, tailored to your business needs.",
+    href: "/work",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "PHP Development",
     description:
-      "Improve your website's visibility and ranking on search engines with our comprehensive SEO strategies.",
-    href: "/services/seo",
+      "Leverage the power of PHP and MySQL with XAMPP for robust web development solutions. Our expertise in PHP development ensures efficient and scalable web applications tailored to your specific requirements.",
+    href: "/work",
   },
 ];
 

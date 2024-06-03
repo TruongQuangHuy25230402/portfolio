@@ -1,3 +1,4 @@
+"use client";
 import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
@@ -5,6 +6,9 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { FiDownload } from "react-icons/fi";
 export default function Home() {
+  const handleDownloadCV = () => {
+    window.location.href = "/TruongQuangHuy_CV.docx";
+  };
   return (
     <div>
       <section className="h-full">
@@ -29,6 +33,7 @@ export default function Home() {
                   className="uppercase flex items-center gap-2"
                   variant="outline"
                   size="lg"
+                  onClick={handleDownloadCV}
                 >
                   <span>Download CV</span>
                   <FiDownload className="text-xl" />
