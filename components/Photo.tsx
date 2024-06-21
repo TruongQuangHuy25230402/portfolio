@@ -13,7 +13,7 @@ const Photo = () => {
         transition={{ delay: 2, duration: 0.4, ease: "easeIn" }}
         className="relative"
       >
-        <Image
+        {/*<Image
           src="/me1.png"
           priority
           quality={100}
@@ -21,7 +21,7 @@ const Photo = () => {
           height={498}
           alt=""
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] object-contain mix-blend-lighten"
-        />
+        />*/}
 
         <motion.svg
           className="absolute top-0 left-0 w-[298px] h-[298px] xl:w-[498px] xl:h-[498px]"
