@@ -7,7 +7,7 @@ import Image from "next/image";
 import { FiDownload } from "react-icons/fi";
 export default function Home() {
   const handleDownloadCV = () => {
-    window.location.href = "/TruongQuangHuy_CV.docx";
+    window.location.href = "/TruongQuangHuy_CV.pdf";
   };
   return (
     <div>
@@ -35,7 +35,7 @@ export default function Home() {
                   size="lg"
                   onClick={handleDownloadCV}
                 >
-                  <span>Download CV</span>
+                  <span>My Resume</span>
                   <FiDownload className="text-xl" />
                 </Button>
                 <div className="mb-8 xl:mb-8">
